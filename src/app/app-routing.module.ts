@@ -5,11 +5,11 @@ import { GetRandomUserComponent } from './components/random-user/get-random-user
 
 const routes: Routes = [
   {
-    path:'',
+    path:'about',
     component:IndexComponent
   },
   {
-    path:'random',
+    path:'',
     component:GetRandomUserComponent
   }
 ];

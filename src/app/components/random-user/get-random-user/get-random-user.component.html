@@ -1,1 +1,11 @@
-<p>get-random-user works!</p>
+
+<div class="container">
+    <div class="cardUser" *ngFor="let user of users.results">
+        <img src={{user.picture.large}} class="img"/>
+        <p><b>Nombre: </b><span>{{user.name.first}}</span></p>
+        <p><b>Apellido: </b><span>{{user.name.last}}</span></p>
+        <p><b>Genero: </b><span>{{user.gender}}</span></p>
+        <p><b>email: </b><span>{{user.email}}</span></p>
+        <p><b>Telefono: </b><span>{{user.phone}}</span></p> 
+    </div>
+</div>
