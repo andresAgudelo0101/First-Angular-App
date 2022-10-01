@@ -6,3 +6,35 @@
     align-items: center;
 }
 
+.cardUser{
+    width: 360px;
+    height: 480px;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px #457b9d;
+}
+
+.img{
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+    border: solid 1px #f1faee;
+}
